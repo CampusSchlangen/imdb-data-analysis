@@ -22,7 +22,7 @@
             ];
         in {
             packages.default = pythonPkgs.buildPythonPackage {
-                pname = "text-adventure";
+                pname = "movie-data";
                 version = "0.1.0";
                 format = "pyproject";
 
