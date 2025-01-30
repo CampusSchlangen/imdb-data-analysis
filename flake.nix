@@ -31,7 +31,10 @@
                 build-system = [pythonPkgs.hatchling];
 
                 dependencies = with pythonPkgs; [
-                    pynput
+                    scikit-learn
+                    matplotlib
+                    joblib
+                    pandas
                 ];
             };
 

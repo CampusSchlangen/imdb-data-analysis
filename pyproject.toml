@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "movie-data"
+version = "0.1.0"
+
+authors = [{ name = "Fynn Schur", email = "fschur@stud.hs-bremen.de" }]
+readme = "README.md"
+
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "joblib"
+]
+
+[project.scripts]
+movie-data = "src.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
