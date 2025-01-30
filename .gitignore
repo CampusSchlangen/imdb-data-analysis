@@ -1,2 +1,4 @@
 /*.tsv
 .direnv/
+result
+__pycache__

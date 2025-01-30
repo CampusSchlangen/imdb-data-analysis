@@ -19,6 +19,8 @@
                 pytest
                 black
                 isort
+                sphinx
+                sphinx-rtd-theme
             ];
         in {
             packages.default = pythonPkgs.buildPythonPackage {
